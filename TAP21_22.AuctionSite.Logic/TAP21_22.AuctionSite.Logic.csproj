@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Mule</RootNamespace>
+	  <nullable>enable</nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TAP21_22.AuctionSite.Data\TAP21_22.AuctionSite.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TAP21-22.AlarmClock.Interface">
+      <HintPath>..\TAP21-22.AlarmClock.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="TAP21-22.AuctionSite.Interface">
+      <HintPath>..\TAP21-22.AuctionSite.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
